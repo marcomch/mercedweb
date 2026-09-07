@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LabVida - Análisis clínicos confiables en Lima. Resultados en 24 horas, atención a domicilio y más de 100 tipos de análisis.">
+  <title>LabVida | Análisis Clínicos – Lima, Perú</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════
+       NAV
+  ═══════════════════════════════════════ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#inicio" class="logo">
+        <img src="img/logo.png" alt="LabVida" style="height:104px">
+        <!--
+          LOGO: Puedes reemplazar el texto por:
+          <img src="img/logo.png" alt="LabVida" style="height:40px">
+        
+        Lab<span>Vida</span> -->
+      </a>
+      <ul class="nav-links">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#paquetes">Paquetes</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <a href="https://wa.me/51950952772" target="_blank" class="nav-wa">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menú">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════ -->
+  <section class="hero" id="inicio">
+    <div class="hero-left">
+      <span class="hero-tag">📍 Lima, Perú</span>
+      <h1>Resultados que<br>inspiran <em>confianza</em></h1>
+      <p class="hero-p">Análisis clínicos con tecnología de precisión. Resultados en 24 h, personal especializado y atención a domicilio.</p>
+      <div class="hero-btns">
+        <a href="#servicios" class="btn-main">Ver servicios</a>
+        <a href="#paquetes" class="btn-sec">Ver paquetes</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">5,000+</span><span class="stat-lbl">Pacientes</span></div>
+        <div class="stat"><span class="stat-num">100+</span><span class="stat-lbl">Análisis</span></div>
+        <div class="stat"><span class="stat-num">24 h</span><span class="stat-lbl">Resultados</span></div>
+      </div>
+    </div>
+    <div class="hero-right">
+      <img src="img/hero.jpg" alt="Laboratorio LabVida">
+      <div class="hero-badge">
+        <div class="badge-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <div>
+          <div class="badge-title">Resultados online</div>
+          <div class="badge-sub">Disponibles en 24 h</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       TRUST BAR
+  ═══════════════════════════════════════ -->
+  <div class="trust-bar">
+    <div class="w">
+      <div class="trust-row">
+        <div class="trust-item">
+          <div class="trust-icon" style="background:#EFF6FF">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#1A56DB" stroke-width="2"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>
+          </div>
+          <div><p class="trust-title">Acreditado por MINSA</p><p class="trust-sub">Certificación vigente</p></div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon" style="background:#ECFDF5">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#047857" stroke-width="2"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <div><p class="trust-title">Resultados en 24 horas</p><p class="trust-sub">O recoge el mismo día</p></div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon" style="background:#FFF7ED">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+          </div>
+          <div><p class="trust-title">Atención a domicilio</p><p class="trust-sub">Toma de muestra en casa</p></div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon" style="background:#EFF6FF">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#1A56DB" stroke-width="2"><path d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          </div>
+          <div><p class="trust-title">Resultados digitales</p><p class="trust-sub">Descarga desde tu celular</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════
+       SERVICIOS
+  ═══════════════════════════════════════ -->
+  <section id="servicios" class="section">
+    <div class="w">
+      <div class="sec-hdr">
+        <p class="sec-tag">Nuestros análisis</p>
+        <h2>Todo lo que necesitas en un solo lugar</h2>
+      </div>
+    </div>
+    <div class="srv-grid">
+
+      <!-- Servicio 1 -->
+      <div class="srv-card">
+        <div class="srv-img">
+          <img src="img/hematologia.png" alt="Hematología">
+          <span class="srv-badge">Hematología</span>
+        </div>
+        <div class="srv-body">
+          <h3 class="srv-name">Hemograma completo</h3>
+          <p class="srv-desc">Evaluación de células sanguíneas. Diagnóstico de anemia, infecciones y más.</p>
+          <a href="https://wa.me/51950952772?text=Hola,%20quiero%20consultar%20el%20precio%20del%20hemograma" class="srv-link" target="_blank">Consultar precio →</a>
+        </div>
+      </div>
+
+      <!-- Servicio 2 -->
+      <div class="srv-card">
+        <div class="srv-img">
+          <img src="img/bioquimica.png" alt="Bioquímica">
+          <span class="srv-badge">Bioquímica</span>
+        </div>
+        <div class="srv-body">
+          <h3 class="srv-name">Glucosa y colesterol</h3>
+          <p class="srv-desc">Control de azúcar en sangre, colesterol y triglicéridos. Esencial para diabéticos.</p>
+          <a href="https://wa.me/51950952772?text=Hola,%20quiero%20consultar%20glucosa%20y%20colesterol" class="srv-link" target="_blank">Consultar precio →</a>
+        </div>
+      </div>
+
+      <!-- Servicio 3 -->
+      <div class="srv-card">
+        <div class="srv-img">
+          <img src="img/hormona.png" alt="Hormonas">
+          <span class="srv-badge">Hormonas</span>
+        </div>
+        <div class="srv-body">
+          <h3 class="srv-name">Perfil tiroideo</h3>
+          <p class="srv-desc">TSH, T3 y T4. Detecta problemas de tiroides con resultados precisos y rápidos.</p>
+          <a href="https://wa.me/51950952772?text=Hola,%20quiero%20consultar%20el%20perfil%20tiroideo" class="srv-link" target="_blank">Consultar precio →</a>
+        </div>
+      </div>
+
+      <!-- Servicio 4 -->
+      <div class="srv-card">
+        <div class="srv-img">
+          <img src="img/microbiologia.png" alt="Microbiología">
+          <span class="srv-badge">Microbiología</span>
+        </div>
+        <div class="srv-body">
+          <h3 class="srv-name">Cultivos y antibiograma</h3>
+          <p class="srv-desc">Urocultivo, coprocultivo y exudados. Identificación exacta con sensibilidad antibiótica.</p>
+          <a href="https://wa.me/51950952772?text=Hola,%20quiero%20consultar%20urocultivo" class="srv-link" target="_blank">Consultar precio →</a>
+        </div>
+      </div>
+
+      <!-- Servicio 5 -->
+      <div class="srv-card">
+        <div class="srv-img">
+          <img src="img/orina.png" alt="Orina y Heces">
+          <span class="srv-badge">Orina y Heces</span>
+        </div>
+        <div class="srv-body">
+          <h3 class="srv-name">Examen completo de orina</h3>
+          <p class="srv-desc">Análisis físico, químico y microscópico. Parasitológico seriado disponible.</p>
+          <a href="https://wa.me/51950952772?text=Hola,%20quiero%20consultar%20examen%20de%20orina" class="srv-link" target="_blank">Consultar precio →</a>
+        </div>
+      </div>
+
+      <!-- Servicio 6 -->
+      <div class="srv-card">
+        <div class="srv-img">
+          <img src="img/perfiles.png" alt="Perfiles">
+          <span class="srv-badge">Perfiles</span>
+        </div>
+        <div class="srv-body">
+          <h3 class="srv-name">Perfil lipídico completo</h3>
+          <p class="srv-desc">Colesterol total, LDL, HDL y triglicéridos. Control de salud cardiovascular.</p>
+          <a href="https://wa.me/51950952772?text=Hola,%20quiero%20consultar%20el%20perfil%20lip%C3%ADdico" class="srv-link" target="_blank">Consultar precio →</a>
+        </div>
+      </div>
+
+    </div><!-- /srv-grid -->
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       PAQUETES
+  ═══════════════════════════════════════ -->
+  <section id="paquetes" class="section section-gray">
+    <div class="w">
+      <div class="sec-hdr">
+        <p class="sec-tag">Promociones</p>
+        <h2>Paquetes con precio especial</h2>
+        <p class="sec-sub">Más análisis, menor precio. Elige el más adecuado para ti.</p>
+      </div>
+      <div class="paq-grid">
+
+        <!-- Paquete Básico -->
+        <div class="paq-card">
+          <div class="paq-img">
+            <img src="img/paq-basico.jpg" alt="Paquete Básico">
+          </div>
+          <div class="paq-body">
+            <h3 class="paq-name">Paquete Básico</h3>
+            <ul class="paq-list">
+              <li>Hemograma completo</li>
+              <li>Glucosa en ayunas</li>
+              <li>Examen de orina</li>
+              <li>Grupo sanguíneo</li>
+            </ul>
+            <p class="paq-price"><sub>S/</sub> 49</p>
+            <a href="https://wa.me/51950952772?text=Hola,%20quiero%20reservar%20el%20Paquete%20B%C3%A1sico%20S/%2049" target="_blank" class="paq-btn paq-btn-sec">Reservar por WhatsApp</a>
+          </div>
+        </div>
+
+        <!-- Paquete Preventivo (destacado) -->
+        <div class="paq-card paq-featured">
+          <div class="paq-img">
+            <img src="img/paq-preventivo.png" alt="Paquete Preventivo">
+            <span class="pop-badge">⭐ Más popular</span>
+          </div>
+          <div class="paq-body">
+            <h3 class="paq-name">Paquete Preventivo</h3>
+            <ul class="paq-list">
+              <li>Hemograma completo</li>
+              <li>Glucosa + Colesterol + TG</li>
+              <li>Perfil hepático básico</li>
+              <li>Examen de orina</li>
+              <li>Urea y creatinina</li>
+            </ul>
+            <p class="paq-price"><sub>S/</sub> 89</p>
+            <a href="https://wa.me/51950952772?text=Hola,%20quiero%20reservar%20el%20Paquete%20Preventivo%20S/%2089" target="_blank" class="paq-btn paq-btn-main">Reservar ahora</a>
+          </div>
+        </div>
+
+        <!-- Chequeo Anual -->
+        <div class="paq-card">
+          <div class="paq-img">
+            <img src="img/paq-anual.jpg" alt="Chequeo Anual">
+          </div>
+          <div class="paq-body">
+            <h3 class="paq-name">Chequeo Anual</h3>
+            <ul class="paq-list">
+              <li>Hemograma + Bioquímica</li>
+              <li>Perfil lipídico completo</li>
+              <li>Perfil tiroideo (TSH, T3, T4)</li>
+              <li>Perfil renal y hepático</li>
+              <li>Orina + Parasitológico</li>
+            </ul>
+            <p class="paq-price"><sub>S/</sub> 159</p>
+            <a href="https://wa.me/51950952772?text=Hola,%20quiero%20reservar%20el%20Chequeo%20Anual%20S/%20159" target="_blank" class="paq-btn paq-btn-sec">Reservar por WhatsApp</a>
+          </div>
+        </div>
+
+      </div><!-- /paq-grid -->
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       CÓMO FUNCIONA
+  ═══════════════════════════════════════ -->
+  <section class="section">
+    <div class="w">
+      <div class="sec-hdr">
+        <p class="sec-tag">Proceso</p>
+        <h2>¿Cómo funciona?</h2>
+      </div>
+      <div class="pasos-grid">
+
+        <div class="paso">
+          <div class="paso-circle">
+            <!--
+              ÍCONO PASO 1 (opcional: reemplazar por foto circular)
+              <img src="img/paso1.jpg" alt="Agendar cita" style="width:100%;height:100%;object-fit:cover;border-radius:50%">
+            -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="#1A56DB" stroke-width="1.8"><path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+            <span class="paso-num">1</span>
+          </div>
+          <h4>Agenda tu cita</h4>
+          <p>Por WhatsApp en minutos, sin filas</p>
+        </div>
+
+        <div class="paso">
+          <div class="paso-circle">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#1A56DB" stroke-width="1.8"><path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+            <span class="paso-num">2</span>
+          </div>
+          <h4>Toma de muestra</h4>
+          <p>En el laboratorio o a domicilio</p>
+        </div>
+
+        <div class="paso">
+          <div class="paso-circle">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#1A56DB" stroke-width="1.8"><path d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            <span class="paso-num">3</span>
+          </div>
+          <h4>Procesamiento</h4>
+          <p>Equipos de alta tecnología</p>
+        </div>
+
+        <div class="paso">
+          <div class="paso-circle">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#1A56DB" stroke-width="1.8"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <span class="paso-num">4</span>
+          </div>
+          <h4>Recibe resultados</h4>
+          <p>Digital en 24 h, también por WhatsApp</p>
+        </div>
+
+      </div><!-- /pasos-grid -->
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       NOSOTROS
+  ═══════════════════════════════════════ -->
+  <section id="nosotros" class="section section-gray">
+    <div class="w">
+      <div class="nos-grid">
+        <div class="nos-img-wrap">
+          <img src="img/equipo.jpg" alt="Equipo LabVida">
+        </div>
+        <div class="nos-content">
+          <p class="sec-tag">Sobre nosotros</p>
+          <h2 style="text-align:left">Precisión y calidez en cada análisis</h2>
+          <p>Más de [X] años cuidando la salud de familias en Lima. Contamos con bioquímicos certificados, equipos automatizados de última generación y un sistema de resultados digitales que te permite ver tus análisis desde el celular.</p>
+          <div class="nos-chips">
+            <span class="chip">✓ Acreditado MINSA</span>
+            <span class="chip">✓ Resultados rápidos</span>
+            <span class="chip">✓ Atención a domicilio</span>
+            <span class="chip">✓ Resultados digitales</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       CONTACTO
+  ═══════════════════════════════════════ -->
+  <section id="contacto" class="section section-dark">
+    <div class="w contact-grid">
+
+      <div class="contact-info">
+        <p class="sec-tag" style="color:#93C5FD">Contáctanos</p>
+        <h2 style="color:#fff">¿Listo para tu análisis?<br>Escríbenos ahora</h2>
+        <p style="color:rgba(255,255,255,.65);margin-bottom:28px">Sin filas, sin esperas. Agenda en minutos y recibe tus resultados el mismo día o al siguiente.</p>
+        <div class="ci-list">
+          <div class="ci-item">
+            <div class="ci-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            </div>
+            <div>
+              <p class="ci-label">Teléfono / WhatsApp</p>
+              <!-- REEMPLAZA con tu número real -->
+              <p class="ci-value">+51 950 952 772</p>
+            </div>
+          </div>
+          <div class="ci-item">
+            <div class="ci-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            </div>
+            <div>
+              <p class="ci-label">Dirección</p>
+              <!-- REEMPLAZA con tu dirección real -->
+              <p class="ci-value">Av. Billinghurs 949, Lima, VMT</p>
+            </div>
+          </div>
+          <div class="ci-item">
+            <div class="ci-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <div>
+              <p class="ci-label">Horario</p>
+              <!-- REEMPLAZA con tu horario real -->
+              <p class="ci-value">Lun – Sáb: 7:00 am – 5:00 pm</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-box">
+        <h3>Agenda tu cita</h3>
+        <form id="contactForm">
+          <div class="fg-row">
+            <div class="fg">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+            </div>
+            <div class="fg">
+              <label for="telefono">Teléfono</label>
+              <input type="tel" id="telefono" name="telefono" placeholder="+51 950 952 772" required>
+            </div>
+          </div>
+          <div class="fg">
+            <label for="servicio">Servicio de interés</label>
+            <select id="servicio" name="servicio">
+              <option value="">Selecciona...</option>
+              <option>Hemograma completo</option>
+              <option>Paquete Básico – S/ 49</option>
+              <option>Paquete Preventivo – S/ 89</option>
+              <option>Chequeo Anual – S/ 159</option>
+              <option>Perfil lipídico</option>
+              <option>Perfil tiroideo</option>
+              <option>Otro análisis</option>
+            </select>
+          </div>
+          <div class="fg">
+            <label for="domicilio">¿Atención a domicilio?</label>
+            <select id="domicilio" name="domicilio">
+              <option>No, iré al laboratorio</option>
+              <option>Sí, necesito atención en casa</option>
+            </select>
+          </div>
+          <div class="fg">
+            <label for="mensaje">Mensaje (opcional)</label>
+            <textarea id="mensaje" name="mensaje" placeholder="¿Tienes alguna consulta adicional?"></textarea>
+          </div>
+          <button type="submit" class="btn-wa-submit">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Enviar por WhatsApp
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       MAPA
+  ═══════════════════════════════════════ -->
+  <!--<div class="map-wrap">
+    
+      OPCIÓN A — Embed de Google Maps (recomendado):
+      1. Ve a Google Maps → busca tu dirección
+      2. Haz clic en "Compartir" → "Insertar un mapa"
+      3. Copia el <iframe> y pégalo aquí dentro
+
+      OPCIÓN B — Foto de la fachada:
+      <img src="img/local.jpg" alt="Ubicación LabVida" style="width:100%;height:100%;object-fit:cover">
+    
+    <div class="img-ph" style="height:240px">
+      <svg viewBox="0 0 24 24" fill="#1A56DB" opacity=".35" style="width:40px;height:40px"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+      <span>📍 Aquí va tu iframe de Google Maps<br>o foto de la fachada del local</span>
+    </div>
+    <div class="map-pill">
+      <svg viewBox="0 0 24 24" fill="#1A56DB" style="width:16px;height:16px"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+       REEMPLAZA con tu dirección y link real de Maps 
+      <a href="https://maps.google.com" target="_blank">Av. Principal 123, Lima · Ver en Google Maps</a>
+    </div>
+  </div>-->
+
+  <!-- ═══════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════ -->
+  <footer>
+    <div class="w footer-inner">
+      <div class="footer-logo">   <span>    </span></div>
+      <ul class="footer-links">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#paquetes">Paquetes</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <p class="footer-copy">© 2026 La Merced. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- BOTÓN WHATSAPP FLOTANTE -->
+  <a href="https://wa.me/51950952772" class="wa-float" target="_blank" aria-label="Contáctanos por WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
